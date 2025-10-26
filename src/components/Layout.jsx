@@ -4,9 +4,11 @@ import { Outlet } from 'react-router'
 
 const Layout = () => {
   return (
-    <div>
+    <div className=''>
         <Navbar/>
-        <Outlet/>
+        <div className='w-7xl mx-auto py-5'>
+            <Outlet/>
+        </div>
     </div>
   )
 }
